@@ -1,3 +1,13 @@
+=begin
+
+Author::  Charles Strahan
+License:: public domain
+
+= About
+Adds the ability to serialize Table instances with the YAML module.
+
+=end
+
 class Table
   def dimensions
     if @dimensions.nil?

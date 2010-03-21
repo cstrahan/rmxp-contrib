@@ -1,3 +1,10 @@
+=begin
+
+Author::  Charles Strahan
+License:: public domain
+
+=end
+
 require 'yaml'
 
 # This is a utility class for ripping content from *.rxdata files.
