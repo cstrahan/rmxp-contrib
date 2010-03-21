@@ -9,7 +9,7 @@ class Table
     @dimensions
   end
   
-  def yaml_items
+  def get_items
     items = {}
     0.upto xsize do |x|
       0.upto ysize do |y|
@@ -28,7 +28,10 @@ class Table
   end 
   
   def to_yaml_properties
-    @yaml_items = yaml_items
-    ["@yaml_items"]
+    @items = get_items
+    @xsize = xsize
+    @ysize = ysize
+    @zsize = zsize
+    ["@items", "@xsize", "@ysize", "@zsize"]
   end
 end
