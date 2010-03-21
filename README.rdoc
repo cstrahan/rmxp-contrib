@@ -1,5 +1,5 @@
 = About
-This is an assortment of libraries that I find usefull when working with RMXP (RPG Maker XP). The primary motivation in collecting these libraries has been to provide yaml and json support within RMXP. Because it was such a pain fulfilling the YAML and JSON dependancies, I figured I'd share these libraries to anyone interested.
+This is an assortment of libraries that I find usefull when working with RMXP (RPG Maker XP). The primary motivation in collecting these libraries has been to provide yaml and json support within RMXP. Because it was such a pain providing the YAML and JSON dependancies (considering RMXP requires pure Ruby libs), I figured I'd share these libraries to anyone interested.
 
 = Credits
 Credits go to the original authors; I just compiled all the libs together and made a few tweaks to fulfill dependencies, for the sake of convenience.
