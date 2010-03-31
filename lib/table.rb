@@ -42,6 +42,6 @@ class Table
     @xsize = xsize
     @ysize = ysize
     @zsize = zsize
-    ["@items", "@xsize", "@ysize", "@zsize"]
+    ["@items", "@xsize", "@ysize", "@zsize", "@dimensions"]
   end
 end
